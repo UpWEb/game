@@ -16,11 +16,5 @@ function preload(){
 
 function draw() {
   // put drawing code here
-  if(keyIsPressed){
-  image(img2,0,0,1300,1200);
-  }
-  else{
-  image(img,0,0,1300,1200);
-  }
-  	image(puzzle,mouseX,mouseY, puzzle.width/2, puzzle.height/2);
+
 }
